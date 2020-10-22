@@ -5,8 +5,7 @@ on:
     # Publish `master` as Docker `latest` image.
     branches:
       - master
-
-    tags:
+      - 'play/**'
 
   # Run tests for any PRs.
   pull_request:
